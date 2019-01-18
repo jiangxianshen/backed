@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>商城后台</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-dihua.css"/>
+
+</head>
+
+<body>
+
+<!--导航-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!--小屏幕导航-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="indexservice.html" class="navbar-brand">Cat Admin</a>
+        </div>
+        <!--小屏幕导航-->
+        <!--大屏幕导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ">
+                <li><a href="indexservice.html"><span class="glyphicon glyphicon-home"> </span>&nbsp;后台首页</a></li>
+                <li><a href="user_list.html"><span class="glyphicon glyphicon-user"> </span>&nbsp;用户管理</a></li>
+                <li><a href="content.html"><span class="glyphicon glyphicon-list-alt"> </span>&nbsp;内容管理</a></li>
+                <li class="active"><a href="tag.html"><span class="glyphicon glyphicon-tag"> </span>&nbsp;标签管理</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        admin
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"> </span>&nbsp;前台首页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"> </span>&nbsp;个人主页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"> </span>&nbsp;个人设置</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"> </span>&nbsp;账户中心</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"> </span>&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="glyphicon glyphicon-off"> </span>&nbsp;退出</a></li>
+            </ul>
+        </div>
+        <!--大屏幕导航-->
+    </div>
+</nav>
+<!--导航-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">标签管理</div>
+        </div>
+        <div class="col-md-12">
+            <form>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" placeholder="输入标签"/>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-12 taglist">
+            <div class="alert alert-info alert-dismissible pull-left" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>好吃</strong>
+            </div>
+            <div class="alert alert-warning alert-dismissible pull-left" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>质量太差</strong>
+            </div>
+            <div class="alert alert-success alert-dismissible pull-left" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>下次再来</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>猫咪文化经营许可证:&nbsp;沪猫文[2016]2296-134号 </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+
+
+<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

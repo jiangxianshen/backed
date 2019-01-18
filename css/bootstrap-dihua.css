@@ -1,0 +1,36 @@
+body{
+    font-family:sans-serif;
+    padding-top: 60px;
+}
+.navbar-inverse .navbar-brand {
+    color: #e2ad12;
+}
+ .progress{
+    margin-bottom: 0;
+}
+ .wh64{
+     width: 64px;
+     height: 64px;
+     border-radius: 50%;
+ }
+
+  .page-header {
+    margin:10px 0 20px
+  }
+footer{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+ .taglist{
+     padding-top: 15px
+ }
+.taglist .alert{
+    margin: 0 15px 15px 0;
+}
+.panel-default {
+    margin-top: 5px;
+}
+.panel-body {
+    padding: 10px;
+}
